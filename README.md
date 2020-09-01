@@ -1,3 +1,6 @@
+This code is associated with the paper from Chiasson et al., "Multiplexed measurement of variant abundance and activity reveals VKOR topology, active site and human variant impact". eLife, 2020. http://doi.org/10.7554/eLife.58026
+
+
 # VKOR abundance and activity score analysis
   
 This repository houses the files needed to recreate the anaylses required for the manuscript "Multiplexed measurement of variant abundance and activity reveals VKOR topology, active site and human variant impact." The "VAMP-seq_analysis.Rmd" R Markdown file is intended to be run with R Studio. This R markdown file will go through the processes of analyzing the data for the VKOR manuscript, using 2 files as the starting point. These files are the VKOR variant and positional abundance and activity score data tables, TPMT and PTEN variant abundance score tables, and VKOR human variant abundance and activity score data table. These files were provided as supplementary data files for the manuscript, and can also be obtained at our GitHub repo. Please place these files in the same directory as this R Markdown file to allow the analyses to proceed:
